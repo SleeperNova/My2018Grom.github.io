@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  background: #efeee7;
+}
+
+header {
+  background: #333;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
+
+/* */
+* {
+  box-sizing: border-box;
+}
+
+.column, .column_1, .column_2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after, .row_1::after, .row_2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/**/
